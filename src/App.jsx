@@ -14,6 +14,7 @@ import Gallery from './components/Gallery/Gallery';
 import Event1 from './components/Event/Event1';
 import Event2 from './components/Event/Event2';
 import Activity from './components/Activity/Activity';
+import { useEffect, useState } from 'react';
 
 
 
@@ -64,14 +65,19 @@ function App() {
     {
       path: "/Activites",
       element: <Activity/>,
-    },
-
-
-    
-    
-    
-    
+    },    
   ]);
+
+
+
+  const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    fetch("https://desert-backend.onrender.com")
+      .then((res) => res.jsonp())
+      .then((data) => setMessage(data.message));
+  }, []);
+  console.log('message::' ,message)
 
   return (
     <>

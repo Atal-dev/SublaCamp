@@ -1,6 +1,9 @@
 import React from 'react'
 import './About.css'
 import Plx from "react-plx";
+import Intro from '../../assets/intro.mp4'
+// import Insta1 from '../../assets/insta1.jpg'
+
 
 
 const headingdata = [
@@ -44,7 +47,10 @@ function About() {
             <Plx className='h-2' parallaxData={headingdata}>
                 <h2>Desert</h2>
             </Plx>   
-            <img src='./img1.jpg' alt="" />
+            {/* <img src='./img1.jpg' alt="" /> */}
+            <video src={Intro} controls muted autoPlay loop>
+             Your browser does not support the video tag.
+           </video>
       </div>
       <div className="right-abt">  
             <p className='p-1'>

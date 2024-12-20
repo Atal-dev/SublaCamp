@@ -15,18 +15,18 @@ function Testimonials() {
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner test-slider">
             <div className="carousel-item active">
-              <p class="d-block w-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae, eius totam voluptate accusantium fuga tenetur corporis dolor beatae molestias illum ipsum repellendus, optio natus, laudantium nemo facere aut. Exercitationem?</p>
-              <h5>Raja Hindustani</h5>
-              <h6>India</h6>
+              <p className="d-block w-10">"Subla Camp proved to be a delightful retreat for our family! The kids' play area was a blast, offering endless fun and activities. The BBQ spot, coupled with the projector, added a special touch to our evenings, making for memorable and cozy gatherings. The beautiful surroundings and the array of enjoyable amenities made our stay truly enjoyable for all ages. A perfect blend of relaxation and entertainment – definitely a place worth revisiting!"</p>
+              <h5>Farhan Mohammad</h5>
+              <h6>Dubai</h6>
             </div>
             <div className="carousel-item">
-              <p class="d-block w-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam nam quaerat! Neque molestiae blanditiis animi sunt architecto, illo assumenda cum quo quaerat non tempore voluptas ea provident accusantium corporis?</p>
-              <h5>James Bond</h5>
-              <h6>USA</h6>
+              <p className="d-block w-10">Excellent family and friends gathering and relaxing camp with all required facilities.  Children can have lots of fun ispicily it is located walking distance from kids play area.Very clean 👌The camp is very quiet for relaxation with clean inviroment.</p>
+              <h5>Saeed al Suwaidi</h5>
+              <h6>Dubai</h6>
             </div>
             <div className="carousel-item">
-              <p class="d-block w-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis ex vitae, expedita sunt id sequi ipsum quam tempora veniam voluptatum sit quibusdam omnis ducimus optio, molestias voluptate doloribus explicabo.</p>
-              <h5>habibi</h5>
+              <p className="d-block w-10">Exceptional mountain camping experience with a clean environment. Perfect for families – kids loved the spacious grounds for playing, making it an ideal retreat for nature-loving adventurers.</p>
+              <h5>Rana Umair</h5>
               <h6>Dubai</h6>
             </div>
           </div>

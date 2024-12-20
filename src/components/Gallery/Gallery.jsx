@@ -6,6 +6,7 @@ import Contact from '../Contact/Contact'
 import Plx from "react-plx";
 import { useLocation } from 'react-router-dom'
 import Imggel from './Imggel'
+import GalleryComponent from './Gallery2'
 
 
 function Gallery() {
@@ -40,6 +41,7 @@ function Gallery() {
             </Plx>
         </div>
         <Imggel/>
+        <GalleryComponent/>
         <Contact/>
         <Footer/>
     </>

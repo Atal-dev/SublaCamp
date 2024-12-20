@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 3%;
+    padding-top: 8%;
     overflow: hidden;
 }
 .Facilities h2{
@@ -15,7 +15,7 @@
 }
 .f-slider{
     width: 100%;
-    height: 60%;
+    height: 45%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -23,7 +23,7 @@
     margin-top: 5%;
 }
 .f-slider .f-inner{
-    width: 30%;
+    width: 23%;
     height: 100%;
     overflow: hidden;
     border-radius: 20px;
@@ -64,7 +64,7 @@
         height: 50%;
     }
     .Facilities{
-        height: 150vh;
+        height: 200vh;
     }
     
 }

@@ -8,8 +8,7 @@ function Contact() {
     
     <div className='Contact' id='Contact'>
       <div className="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227794.5002760221!2d75.78233203261718!3d26.8625555854683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db14b1bd30ba5%3A0x860e5d531eccb20c!2sHawa%20Mahal!5e0!3m2!1sen!2sin!4v1725291095643!5m2!1sen!2sin" width={400} height={300} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.681428086985!2d56.0626356!3d24.840565899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef51bb95fef5719%3A0x1fab8748e54e6092!2z2KXYs9iq2LHYp9it2Kkg2YjZhdiu2YrZhSDYp9mE2LPYqNmE2KkgfCBTdWJsYSBDYW1w!5e0!3m2!1sen!2sin!4v1734516937467!5m2!1sen!2sin" width={400} height={300} style={{border:0}} allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div className="contact-right">
         <h2>Contact Us <div className='headingline'></div></h2>

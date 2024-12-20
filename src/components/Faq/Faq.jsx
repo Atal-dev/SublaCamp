@@ -6,33 +6,33 @@ function Faq() {
 
     const [Faq, setFaq] = useState([
         {
-            question:"1.How can I place an order?",
-            answer: "Placing an order with Desert Camping UAE is simple and convenient. Just browse our website, select the camping gear and accessories you need, and add them to your cart. Then, proceed to checkout, where you can provide your shipping details and payment information. Once your order is confirmed, we’ll take care of the rest.",
+            question:"1.What types of accommodations do you offer?",
+            answer: "We offer various accommodations including comfortable rooms, luxurious tents, and adventurous camps to suit all preferences and budgets.",
             state: 'closeans'
         },
         {
-            question:"2.What payment methods do you accept?",
-            answer: "We accept a variety of secure payment methods, including major credit cards, debit cards, and online payment platforms. You can choose the option that suits you best during the checkout process.",
+            question:"2.What activities are available at the desert camp?",
+            answer: "We offer a wide range of activities such as camel rides, desert safaris, stargazing, cultural performances, and bonfire sessions for an unforgettable desert experience.",
             state: 'closeans'
         },
         {
-            question:"3.Do you offer international shipping?",
-            answer: "Currently, we only offer shipping within the UAE. However, we’re working on expanding our services to serve our international customers in the future. Stay tuned for updates!",
+            question:"3.Are the tents and camps equipped with basic amenities?",
+            answer: "Yes, our tents and camps are well-equipped with necessary amenities like comfortable bedding, lighting, and fans for your comfort during your stay.",
             state: 'closeans'
         },
         {
-            question:"4.What is your return and exchange policy?",
-            answer: "We want you to be completely satisfied with your purchase. If you receive a defective or incorrect item, please contact our customer support within 7 days of delivery. We’ll gladly arrange for a return or exchange and ensure you receive the right product or a refund.",
+            question:"4.Are there any age restrictions for activities?",
+            answer: "Most activities are suitable for all ages, but certain activities like camel rides and safaris may have age or health restrictions for safety reasons.",
             state: 'closeans'
         },
         {
-            question:"5.Can I track my order?",
-            answer: "Yes, you can track your order’s status. Once your order is dispatched, we’ll provide you with a tracking number and a link to our courier partner’s website for real-time updates on your delivery.",
+            question:"5.How can I book a stay at the Subla camp?",
+            answer: "You can easily book your stay by visiting our website and selecting your preferred accommodation type, dates, and any additional activities you wish to include.",
             state: 'closeans'
         },
         {
-            question:"6.How long does delivery take?",
-            answer: "We strive to process and dispatch your order as quickly as possible. Delivery times may vary depending on your location within the UAE. Typically, you can expect to receive your camping gear within 3-7 business days from the date of order confirmation.",
+            question:"6.Can I arrange for special events at the desert camp?",
+            answer: "Yes, we can help organize special events such as birthdays, anniversaries, or corporate retreats. Please contact us in advance to discuss your requirements.",
             state: 'closeans'
         },
         {
@@ -61,8 +61,8 @@ function Faq() {
             {
                 Faq.map((ele , index) => {
                     return(
-                        <div>
-                            <h5 className="quest"
+                        <div key={ele.question}>
+                            <h5 className="quest" 
                             onClick={()=>{
                                 let newfaq = [...Faq];
                                 if(newfaq[index].state == 'openans'){

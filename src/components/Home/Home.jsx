@@ -8,6 +8,7 @@ import Footer from '../footer/Footer'
 import Faq from '../Faq/Faq'
 import Contact from '../Contact/Contact'
 import Testimonials from '../Testimonials/Testimonials'
+import InstaPost from '../InstaGallary/InstaPost'
 import { useLocation } from 'react-router-dom'
 
 
@@ -21,8 +22,8 @@ function Home() {
      <Nav/>
      <Hero2/>
      <About/>
-     <Book/>
      <Facilities/>
+     <InstaPost/>
      <Faq/>
      <Testimonials/>
      <Contact/>
